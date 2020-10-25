@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TelefoniaApi</name>
+    </assembly>
+    <members>
+        <member name="M:TelefoniaApi.Controllers.DDDController.GetAll">
+            <summary>
+            Metotod que retona todos DDDs
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TelefoniaApi.Controllers.DDDController.GetByDDDByNumero(System.String)">
+            <summary>
+            Metotod que retorna DDD pelo seu numero
+            </summary>
+            <param name="numero"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TelefoniaApi.Controllers.DDDController.SaveDDD(TelefoniaApi.Domain.ViewsModels.DDDViewModel)">
+            <summary>
+            Metoto que cria um DDD
+            </summary>
+            <param name="dDDViewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TelefoniaApi.Controllers.DDDController.UpdateDDD(System.Int32,TelefoniaApi.Domain.ViewsModels.DDDViewModel)">
+            <summary>
+            Metotod que atualiza DDD 
+            </summary>
+            <param name="id"></param>
+            <param name="dDDViewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TelefoniaApi.Controllers.DDDController.Delete(System.Int32)">
+            <summary>
+            Metotod que deleta DDD pelo seu ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TelefoniaApi.Controllers.OperadoraController.GetAll">
+            <summary>
+            Metotod que retorna todas as Oepradoras
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TelefoniaApi.Controllers.OperadoraController.GetByOperadora(System.String)">
+            <summary>
+            Metotod que retorna Opradora pelo seu nome
+            </summary>
+            <param name="nome"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TelefoniaApi.Controllers.OperadoraController.SaveOperadora(TelefoniaApi.Domain.ViewsModels.OperadoraViewModel)">
+            <summary>
+            Metotod que cria uma Operadora
+            </summary>
+            <param name="operadoraViewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TelefoniaApi.Controllers.OperadoraController.UpdateOperadora(System.Int32,TelefoniaApi.Domain.ViewsModels.OperadoraViewModel)">
+            <summary>
+            Metotod que atualiza uma Operadora
+            </summary>
+            <param name="id"></param>
+            <param name="operadoraViewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TelefoniaApi.Controllers.OperadoraController.Delete(System.Int32)">
+            <summary>
+            Método que deleta uma Operadora pelo seu ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TelefoniaApi.Controllers.PlanoController.GetAll">
+            <summary>
+            Metodo que retorna todos os Planos
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TelefoniaApi.Controllers.PlanoController.GetByTipoPlano(System.String,TelefoniaApi.Domain.ViewsModels.Tipo)">
+            <summary>
+            Metodo que retorna Plano pelo seu DDD e por Tipo (Controle,Pre ou Pos) 
+            </summary>
+            <param name="DDD"></param>
+            <param name="tipoplano"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TelefoniaApi.Controllers.PlanoController.GetByCodigoPlano(System.String,System.String)">
+            <summary>
+            Metodo que retorna Plano pelo seu DDD e Código
+            </summary>
+            <param name="DDD"></param>
+            <param name="codigoPlano"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TelefoniaApi.Controllers.PlanoController.GetByOperadora(System.String,System.String)">
+            <summary>
+             Metodo que retorna Plano pelo seu DDD e Operadora
+            </summary>
+            <param name="DDD"></param>
+            <param name="operadora"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TelefoniaApi.Controllers.PlanoController.SavePlano(TelefoniaApi.Domain.ViewsModels.PlanoViewModel)">
+            <summary>
+            Metodo que cria um Plano novo
+            </summary>
+            <param name="planoViewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TelefoniaApi.Controllers.PlanoController.UpdatePlano(System.Int32,TelefoniaApi.Domain.ViewsModels.PlanoViewModel)">
+            <summary>
+            Metodo que atualiza um Plano
+            </summary>
+            <param name="id"></param>
+            <param name="planoViewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TelefoniaApi.Controllers.PlanoController.DeletePlano(System.String,System.String)">
+            <summary>
+            Metodo que deleta um Plano
+            </summary>
+            <param name="ddd"></param>
+            <param name="codigoPlano"></param>
+            <returns></returns>
+        </member>
+        <member name="T:TelefoniaApi.Startup">
+            <summary>
+            Startup
+            </summary>
+        </member>
+        <member name="M:TelefoniaApi.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Startup
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:TelefoniaApi.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:TelefoniaApi.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            ConfigureServices
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:TelefoniaApi.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            Configure
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+        <member name="M:TelefoniaApi.Startup.InitializeData">
+            <summary>
+            InitializeData - Método que inicializa dados da aplicação
+            </summary>
+        </member>
+    </members>
+</doc>
