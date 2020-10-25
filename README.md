@@ -1,8 +1,8 @@
 # AFJ - Projeto para Processo Seletivo
 
-<h3>Projeto de software de gerencimento de Planos de Telefonia</h3>
+<h3>Projeto de software de gerenciamento de Planos de Telefonia</h3>
 
-Houve a necessidade da AFJ de criar um software para gerenciar Planos de Telefonia e expor suas funcionalidades, este software consiste de funcionalidades como criar, deletar, atualizar e listar todos os planos, um plano é formado pela suas caracteristicas em si como valor, franquia, minutos e etc, além do mais, existem outras carcateristicas como a Operadora e o DDD, o software também tem a capacidade de para criar, deletar, atualizar e listar todos os DDDs e as Operadoras.
+Houve a necessidade da AFJ de criar um software para gerenciar Planos de Telefonia e expor suas funcionalidades, este software consiste de funcionalidades como criar, deletar, atualizar e listar todos os planos, um plano é formado pela suas caracteristicas em si como valor, franquia, minutos e etc, além do mais, inclui outras carcateristicas como a Operadora e o DDD, o software também tem a capacidade de para criar, deletar, atualizar e listar todos os DDDs e as Operadoras.
 
 <h3>Funcionalidades disponíveis:</h3>
 <h4>Plano:</h3>
@@ -28,7 +28,7 @@ Houve a necessidade da AFJ de criar um software para gerenciar Planos de Telefon
 <h4> DDD:</h3>
 <ul>
   <li>Listar Todos </li>
-  <li>Pesquisar por Numero </li>
+  <li>Pesquisar por Número </li>
   <li>Salvar </li>
   <li>Atualizar </li>
   <li>Delete </li>
