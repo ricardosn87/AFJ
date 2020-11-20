@@ -5743,11 +5743,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ebix\\source\\repos\\ProcessoSeletivo\\TelefoniaApi\\TelefoniaApi.csproj",
+      "projectUniqueName": "C:\\Users\\Ebix\\source\\repos\\AFJ\\ProcessoSeletivo\\TelefoniaApi\\TelefoniaApi.csproj",
       "projectName": "TelefoniaApi",
-      "projectPath": "C:\\Users\\Ebix\\source\\repos\\ProcessoSeletivo\\TelefoniaApi\\TelefoniaApi.csproj",
+      "projectPath": "C:\\Users\\Ebix\\source\\repos\\AFJ\\ProcessoSeletivo\\TelefoniaApi\\TelefoniaApi.csproj",
       "packagesPath": "C:\\Users\\Ebix\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ebix\\source\\repos\\ProcessoSeletivo\\TelefoniaApi\\obj\\",
+      "outputPath": "C:\\Users\\Ebix\\source\\repos\\AFJ\\ProcessoSeletivo\\TelefoniaApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

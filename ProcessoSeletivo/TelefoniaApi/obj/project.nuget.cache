@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IBm/glRXlCW1nSlN/O028zpGOgvLbK5BTRLTTgy0E3fBKVkx180dqb9wToRDrcyprqxI1jAv5UrtKA97tclDEw==",
+  "dgSpecHash": "iiEJZ3NC8mAlRuY9F9ysYlNB0GwUpgwQT2enpzF5GoHl8xutb3rHARZ6zhF688pWtiO0h4hQ6ZfIJ+8G3nU+TA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ebix\\source\\repos\\ProcessoSeletivo\\TelefoniaApi\\TelefoniaApi.csproj",
+  "projectFilePath": "C:\\Users\\Ebix\\source\\repos\\AFJ\\ProcessoSeletivo\\TelefoniaApi\\TelefoniaApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ebix\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Ebix\\.nuget\\packages\\microsoft.aspnet.webapi.client\\4.0.20710\\microsoft.aspnet.webapi.client.4.0.20710.nupkg.sha512",
